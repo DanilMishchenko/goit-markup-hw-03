@@ -1,0 +1,195 @@
+/*
+основной цвет текста - #757575; 
+вторичный цвет текста - #212121;
+цвет контактов в подвале - rgba(255, 255, 255, 0.6);
+акцент - #2196F3;
+белый - #ffffff
+светло-серый фон наша команда и кнопок в портфолио - #F5F4FA;
+тёмно-серый фон подвала и героя - #2F303A;
+*/
+
+:root {
+  --main-color: #ffffff;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --footer-contacts-text-color: rgba(255, 255, 255, 0.6);
+  --main-dark-gray-color: #2f303a;
+  --main-light-gray-color: #f5f4fa;
+}
+
+/* Общие */
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--main-color);
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Лого шапки и подвала */
+
+.header-logo,
+.fooder-logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.header-logo .studio {
+  color: var(--title-text-color);
+}
+
+/* Навигация шапки */
+
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link.current,
+.site-nav .link.current:hover,
+.site-nav .link.current:focus,
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+/* Контакты шапки */
+
+.contacts-header a {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-header a:hover,
+.contacts-header a:focus,
+.contacts-fooder a:hover,
+.contacts-fooder a:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: var(--main-dark-gray-color);
+  color: var(--main-color);
+  letter-spacing: 0.06em;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.hero-buton {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* Лист особенности */
+
+.features-list .title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* Секция Наша Команда */
+
+.section-team {
+  background-color: var(--main-light-gray-color);
+}
+
+.team-container {
+  background-color: var(--main-color);
+}
+
+.title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Подвал */
+
+.fooder {
+  background-color: var(--main-dark-gray-color);
+}
+
+.fooder-logo .studio,
+.fooder .addres {
+  color: var(--main-color);
+}
+
+.contacts-fooder a {
+  color: var(--footer-contacts-text-color);
+}
+
+/* Портфолио */
+
+.content-selector button {
+  color: var(--title-text-color);
+  background-color: var(--main-light-gray-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.content-selector button:hover,
+.content-selector button:focus {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+}
+
+.content-container title {
+  color: var(--title-text-color);
+}
+
+.content-list h2 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.content-list p {
+  font-size: 16px;
+  line-height: 1.88;
+}
