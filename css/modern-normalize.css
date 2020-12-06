@@ -1,18 +1,22 @@
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
-​
-/*
-Document
-========
-*/
-​
-/**
-Use a better box model (opinionated).
-*/
-​
 *,
-*::before,
-*::after {
+::before,
+::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
 }
 ​
 /**
