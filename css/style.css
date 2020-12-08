@@ -247,11 +247,12 @@ header {
 }
 
 .fooder .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
   height: 252px;
 }
 
 .fooder-logo {
-  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -286,6 +287,7 @@ header {
   display: inline-block;
   color: var(--title-text-color);
   background-color: var(--main-light-gray-color);
+  font-family: roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
