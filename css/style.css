@@ -244,11 +244,11 @@ header {
 
 .fooder {
   background-color: var(--main-dark-gray-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .fooder .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
   height: 252px;
 }
 
